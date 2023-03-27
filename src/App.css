@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+
+}
+.home {
+  background-image: url('/home/shivam/project2/public/patient_reg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.patient{
+  background-image: url('/home/shivam/project2/public/patient.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 80px;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.doctor-login {
+  background-image: url('/home/shivam/project2/public/Patientlogin.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.patient-login {
+  background-image: url('/home/shivam/project2/public/Patientlogin.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
